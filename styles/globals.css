@@ -2,26 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.App {
+  padding: 150px;
+  padding-top: 50px;
+  margin: auto;
+  font-family: monospace;
+  background-color: #ffe8d6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media screen and (max-width: 970px) {
+  .App {
+    padding: 50px;
+    padding-top: 50px;
+    margin: auto;
+  }
+  .Intro {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .InfoPhoto img {
+    border-radius: 50px;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 30px;
+  }
+
+  .Info {
+    flex: 3;
+    margin-right: 20px !important;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.Intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.Info {
+  flex: 3;
+  margin-right: 50px;
+}
+
+.Info h3 {
+  margin-top: -10px;
+}
+
+.IntroPhoto {
+  flex: 1;
+}
+
+.InfoPhoto img {
+  border-radius: 50px;
+}
+
+.buttons button {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #ffe8d6;
+  color: #000;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  margin-left: 0px;
+  border: 2px solid #000;
+  margin-right: 30px;
+}
+
+.buttons button a {
+  color: #000;
+  font-family: monospace;
+}
+.Portfolio {
+  margin-top: 50px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.items ul {
+  list-style: inside;
+  margin-top: 10px;
+}
+
+.items h2 {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.items img:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.items a {
+  text-decoration: none;
+  font-family: monospace;
+  color: black;
+}
+.space {
+  margin-top: 20px;
+}
+
+.Quote h1 {
+  margin-top: 50px;
+  text-align: center;
 }
