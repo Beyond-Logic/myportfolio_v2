@@ -62,8 +62,8 @@ const ProfileCard = () => {
         <Image
           src={ProfilePhoto}
           alt="Edema - Frontend Developer"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           style={{ borderRadius: "100px" }}
         />
       </div>
