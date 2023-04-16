@@ -10,8 +10,7 @@ const ProfileCard = () => {
           Software Engineer | Frontend Developer
         </h3>
         <p className="pt-8 text-base">
-          As a software engineer with a passion for frontend development, I
-          possess a rich skill set that includes:{" "}
+          As a software engineer with a passion for frontend development, My Skill set Includes:{" "}
           <b>
             HTML, CSS, Javascript, React/Next.js, Typescript, React Query, Unit
             Testing, and WordPress
