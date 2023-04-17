@@ -10,23 +10,24 @@ const ProfileCard = () => {
           Software Engineer | Frontend Developer
         </h3>
         <p className="pt-8 text-base">
-          As a software engineer with a passion for frontend development, My Skill set Includes:{" "}
-          <b>
-            HTML, CSS, Javascript, React/Next.js, Typescript, React Query, Unit
-            Testing, and WordPress
-          </b>
-          . I am committed to staying up-to-date with the latest technologies
-          and best practices in the field. With a dedication to delivering
-          exceptional results and a genuine enthusiasm for the work, I am
-          confident that I would be a valuable addition to your team.
+          As a skilled software engineer with a passion for front-end
+          development and previous experience as a Junior Frontend Engineer, I
+          have gained expertise in developing responsive and functional user
+          interfaces using React. I am seeking an opportunity that will allow me
+          to continue to grow and improve my current skills, while also
+          developing new ones. I am confident that I would be a valuable
+          addition to your team.
         </p>
-        {/* <p className="pt-4 text-base">
+        <p className="pt-4 text-base">
           Skills Include: <br />
           <b>
-            HTML, CSS, Javascript, React/Next.js, Typescript, React Query, Unit
-            Testing, & WordPress.
+            HTML, CSS, JavaScript, jQuery, AJAX, JSON, DOM Manipulation,
+            React/Next.js, TypeScript, TailwindCSS, ReduxToolKit/RTK Query,
+            Webpack, Babel & NPM, Git/GitHub, RESTful API Integration, Web
+            Performance and Optimization Techniques, Web Accessibility Standards
+            and best Practices & WordPress
           </b>
-        </p> */}
+        </p>
         <div className="buttons mt-8">
           <button className="">
             <a
