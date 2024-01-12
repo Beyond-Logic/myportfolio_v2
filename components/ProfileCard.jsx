@@ -13,7 +13,7 @@ const ProfileCard = () => {
           As a skilled software engineer with a passion for front-end
           development and previous experience as a Junior Frontend Engineer, I
           have gained expertise in developing responsive and functional user
-          interfaces using React. I am seeking an opportunity that will allow me
+          interfaces using React/Next.js. I am seeking an opportunity that will allow me
           to continue to grow and improve my current skills, while also
           developing new ones. I am confident that I would be a valuable
           addition to your team.
@@ -21,8 +21,7 @@ const ProfileCard = () => {
         <p className="pt-4 text-base">
           Skills Include: <br />
           <b>
-            HTML, CSS, JavaScript, jQuery, AJAX, JSON, DOM Manipulation,
-            React/Next.js, TypeScript, TailwindCSS, ReduxToolKit/RTK Query,
+            HTML, CSS, JavaScript, React/Next.js, TypeScript, TailwindCSS, ReduxToolKit/RTK Query,
             Webpack, Babel & NPM, Git/GitHub, RESTful API Integration, Web
             Performance and Optimization Techniques, Web Accessibility Standards
             and best Practices & WordPress
